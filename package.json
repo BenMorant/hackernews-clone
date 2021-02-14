@@ -1,0 +1,48 @@
+{
+  "name": "hackernews-clone",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "web-vitals": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "7.19.0",
+    "eslint-config-standard-jsx": "10.0.0",
+    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "identity-obj-proxy": "3.0.0",
+    "injectmd": "1.0.0",
+    "it-each": "0.4.0",
+    "prettier": "2.2.1",
+    "react-doc-generator": "1.2.5",
+    "replace": "1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watchAll=false",
+    "eject": "react-scripts eject",
+    "lint-fix": "eslint --fix src/*"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    "firefox 70",
+    "chrome 70"
+  ]
+}
